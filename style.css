@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: orangered;
+    padding: 10px;
+}
+
+
+.texto{
+    border: 1px solid rgb(126, 29, 29);
+    background-color: white;
+    font-size: 14px;
+}
+
+.usuario{
+    position: fixed;
+}
+
+.entrar{
+    border: 1px solid red;
+    width: 80px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* Mobile */
+@media screen and (max-width: 481px){
+
+    li{
+        padding: 45px;
+        display: inline;
+    }
+
+    .usuario{
+        top: 20%;
+        left: 20%;
+    }
+
+    .texto{
+        width: 140px;
+        text-align: center;
+        margin: 13px;
+    }
+
+    img{
+        padding: 10px;
+        margin: auto;
+    }
+}
+
+/*pc*/
+@media (min-width: 481px) and (max-width: 500px){
+
+    li{
+        text-align: center;
+        padding-left: 75px;
+        display: inline;
+    }
+
+    .usuario{
+        top: 20%;
+        left: 20%;
+    }
+    
+    .texto{
+        width: 140px;
+        margin: 13px;
+    }
+
+    img{
+        padding: 10px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 600px){
+
+    li{
+        text-align: center;
+        padding-left: 90px;
+        display: inline;
+    }
+
+    .usuario{
+        top: 20%;
+        left: 20%;
+    }
+
+    .texto{
+        width: 140px;
+        margin: 13px;
+
+    }
+    
+    img{
+        padding: 10px;
+        float: left;
+        margin-right: 13px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 700px){
+
+    li{
+        text-align: center;
+        padding-left: 105px;
+        display: inline;
+    }
+
+    .usuario{
+        top: 20%;
+        left: 20%;
+    }
+
+    .texto{
+        width: 140px;
+        margin: 13px;
+        justify-content: center;
+    }
+
+    img{
+        padding: 10px;
+        float: right;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 800px){
+
+    li{
+        text-align: center;
+        padding-left: 125px;
+        display: inline;
+    }
+
+    .usuario{
+        top: 20%;
+        left: 20%;
+    }
+
+    .texto{
+        width: 140px;
+        margin: 13px;
+        justify-content: center;
+    }
+
+    img{
+        padding: 10px;
+        float: right;
+        justify-content: center;
+        margin: auto;
+    }    
+}
